@@ -30,14 +30,17 @@ public class StockGrabber implements Subject {
             observer.update(ibmPrice, applePrice, pixelPrice);
         }
     }
+
     public void setIbmPrice(double newIBMPrice){
         this.ibmPrice = newIBMPrice;
         notifyObserver();
     }
+
     public void setApplePrice(double newAPPLEPrice){
         this.applePrice= newAPPLEPrice;
         notifyObserver();
     }
+
     public void setPixelPrice(double newPIXELPrice){
         this.pixelPrice= newPIXELPrice;
         notifyObserver();
