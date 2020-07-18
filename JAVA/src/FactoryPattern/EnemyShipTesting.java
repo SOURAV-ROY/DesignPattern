@@ -4,22 +4,37 @@ import java.util.Scanner;
 
 public class EnemyShipTesting {
     public static void main(String[] args) {
-//        EnemyShip ufoShip = new UFOEnemyShip();
+        EnemyShipFactory shipFactory = new EnemyShipFactory();
         EnemyShip theEnemy = null;
-
         Scanner userInput = new Scanner(System.in);
-        String enemyShipOption = "";
-        System.out.println("What Type of Ship? (U / R)");
 
+        System.out.println("What Type Ship? (U / R / B)");
         if (userInput.hasNextLine()) {
-            enemyShipOption = userInput.nextLine();
+            String typeOfShip = userInput.nextLine();
+            theEnemy = shipFactory.makeEnemyShip(typeOfShip);
         }
-        if (enemyShipOption.equals("U")) {
-            theEnemy = new UFOEnemyShip();
-        } else if (enemyShipOption.equals("R")) {
-            theEnemy = new RocketEnemyShip();
+        if (theEnemy != null) {
+            doStuffEnemy(theEnemy);
+        } else {
+            System.out.println("Enter ('U' , 'R' or 'B') Next Time");
         }
-        doStuffEnemy(theEnemy);
+//        EnemyShip ufoShip = new UFOEnemyShip();
+//        EnemyShip theEnemy = null;
+//
+//        Scanner userInput = new Scanner(System.in);
+//        String enemyShipOption = "";
+//        System.out.println("What Type of Ship? (U / R)");
+//
+//        if (userInput.hasNextLine()) {
+//            enemyShipOption = userInput.nextLine();
+//        }
+//        if (enemyShipOption.equals("U")) {
+//            theEnemy = new UFOEnemyShip();
+//
+//        } else if (enemyShipOption.equals("R")) {
+//            theEnemy = new RocketEnemyShip();
+//        }
+//        doStuffEnemy(theEnemy);
 //        doStuffEnemy(ufoShip);
     }
 
