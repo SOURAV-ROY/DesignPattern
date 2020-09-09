@@ -3,6 +3,7 @@
 - [X] Strategy DesignPattern &check;
 - [X] Observer DesignPattern &check;
 - [X] Factory  DesignPattern &check;
+- [X] Singleton  DesignPattern &check;
 
 |Checked|Unchecked|Done
 |---|---|---|
