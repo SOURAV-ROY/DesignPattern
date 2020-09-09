@@ -8,7 +8,7 @@ public class GetTheTiles implements Runnable{
         System.out.println("Instance ID: " + System.identityHashCode(newInstance));
 
         System.out.println(newInstance.getLetterList());
-        LinkedList<String> playerOneTiles = newInstance.getTitles(7);
+        LinkedList<String> playerOneTiles = newInstance.getTitles(6);
         System.out.println("Player : "+playerOneTiles);
         System.out.println("Got Tiles");
     }

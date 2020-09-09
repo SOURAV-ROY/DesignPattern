@@ -24,7 +24,7 @@ public class Singleton {
                 firstThread = false;
                 Thread.currentThread();
                 try {
-                    Thread.sleep(1000); // First Thread Sleeping / Wakes Up
+                    Thread.sleep(3000); // First Thread Sleeping / Wakes Up
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }

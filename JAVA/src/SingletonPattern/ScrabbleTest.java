@@ -13,10 +13,10 @@ public class ScrabbleTest {
         System.out.println(newInstance.getLetterList());
 
         Singleton instanceTwo = Singleton.getInstance();
-        System.out.println("Instance 2 ID: " + System.identityHashCode(newInstance));
-        System.out.println(newInstance.getLetterList());
+        System.out.println("Instance 2 ID: " + System.identityHashCode(instanceTwo));
+        System.out.println(instanceTwo.getLetterList());
 
-        LinkedList<String> playerTwoTitles = newInstance.getTitles(7);
+        LinkedList<String> playerTwoTitles = newInstance.getTitles(5);
 
         System.out.println("Player 2: "+playerTwoTitles);
     }
