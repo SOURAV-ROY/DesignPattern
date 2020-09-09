@@ -4,6 +4,7 @@
 - [X] Observer DesignPattern &check;
 - [X] Factory  DesignPattern &check;
 - [X] Singleton  DesignPattern &check;
+- [X] JAVA_MVC  DesignPattern &check;
 
 |Checked|Unchecked|Done
 |---|---|---|
