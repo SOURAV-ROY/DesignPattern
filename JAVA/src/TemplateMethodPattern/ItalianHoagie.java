@@ -1,7 +1,5 @@
 package TemplateMethodPattern;
 
-import javax.swing.*;
-
 public class ItalianHoagie extends Hoagie {
     String[] meatUsed = {"Salami", "Pepperoni", "Capicola Ham"};
     String[] cheeseUsed = {"Provolone"};
@@ -10,7 +8,7 @@ public class ItalianHoagie extends Hoagie {
 
     @Override
     void addMeat() {
-        System.out.println("Adding The Meat : ");
+        System.out.print("Adding The Meat : ");
         for (String meat : meatUsed) {
             System.out.print(meat + " ");
         }
@@ -18,7 +16,7 @@ public class ItalianHoagie extends Hoagie {
 
     @Override
     void addCheese() {
-        System.out.println("Adding The Cheese : ");
+        System.out.print("Adding The Cheese : ");
         for (String cheese : cheeseUsed) {
             System.out.print(cheese + " ");
         }
@@ -26,7 +24,7 @@ public class ItalianHoagie extends Hoagie {
 
     @Override
     void addVegetables() {
-        System.out.println("Adding The Vegetables : ");
+        System.out.print("Adding The Vegetables : ");
         for (String veggie : veggiesUsed) {
             System.out.print(veggie + " ");
         }
@@ -34,7 +32,7 @@ public class ItalianHoagie extends Hoagie {
 
     @Override
     void addCondiments() {
-        System.out.println("Adding The Condiments : ");
+        System.out.print("Adding The Condiments : ");
         for (String condiments : condimentsUsed) {
             System.out.print(condiments + " ");
         }

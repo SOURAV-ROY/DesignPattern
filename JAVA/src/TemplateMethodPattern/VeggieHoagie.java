@@ -1,10 +1,7 @@
 package TemplateMethodPattern;
 
-import javax.swing.*;
-
 public class VeggieHoagie extends Hoagie {
-    //    String[] meatUsed = {"Salami", "Pepperoni", "Capicola Ham"};
-//    String[] cheeseUsed = {"Provolone"};
+
     String[] veggiesUsed = {"Lettuce", "Tomatoes", "Onions", "Sweet Peppers"};
     String[] condimentsUsed = {"Oil", "Vinegar"};
 
@@ -26,29 +23,17 @@ public class VeggieHoagie extends Hoagie {
 
     @Override
     void addVegetables() {
-        System.out.println("Adding The Vegetables: ");
+        System.out.print("Adding The Vegetables: ");
         for (String veggie : veggiesUsed) {
-            System.out.println(veggie + " ");
+            System.out.print(veggie + " ");
         }
     }
 
     @Override
     void addCondiments() {
-        System.out.println("Adding The Condiments: ");
+        System.out.print("Adding The Condiments: ");
         for (String condiments : condimentsUsed) {
-            System.out.println(condiments + " ");
+            System.out.print(condiments + " ");
         }
     }
-//    public void makeSandwich(){
-//        cutBun();
-//        addMeat();
-//        addCheese();
-//        addVegetables();
-//        addCondiments();
-//        wrapTheHoagie();
-//    }
-//
-//    public void cutBun(){
-//        System.out.println("The Hoagie is Cut");
-//    }
 }
