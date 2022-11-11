@@ -1,11 +1,11 @@
 # Design Pattern #
 
-- [X] Strategy DesignPattern &check;
-- [X] Observer DesignPattern &check;
-- [X] Factory  DesignPattern &check;
-- [X] Singleton  DesignPattern &check;
-- [X] JAVA_MVC  DesignPattern &check;
-- [X] TemplateMethod DesignPattern &check;
+- [X] [Strategy DesignPattern](https://github.com/SOURAV-ROY/DesignPattern/tree/master/JAVA/src/StrategyPattern) &check;
+- [X] [Observer DesignPattern](https://github.com/SOURAV-ROY/DesignPattern/tree/master/JAVA/src/ObserverPattern) &check;
+- [X] [Factory DesignPattern](https://github.com/SOURAV-ROY/DesignPattern/tree/master/JAVA/src/FactoryPattern) &check;
+- [X] [Singleton DesignPattern](https://github.com/SOURAV-ROY/DesignPattern/tree/master/JAVA/src/SingletonPattern) &check;
+- [X] [JAVA_MVC DesignPattern](https://github.com/SOURAV-ROY/DesignPattern/tree/master/JAVA/src/MVC) &check;
+- [X] [TemplateMethod DesignPattern](https://github.com/SOURAV-ROY/DesignPattern/tree/master/JAVA/src/TemplateMethodPattern) &check;
 
 |Checked|Unchecked|Done
 |---|---|---|
